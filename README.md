@@ -2,6 +2,7 @@
 ### Residual U-Net Autoencoder for Scan Noise Removal
 This project implemented a custom Residual U-Net Autoencoder to effectively remove scan noise from PDF images, ensuring improved readability and visual quality of processed documents.
 Trains a supervised Residual UNET AutoEncoder to take non-digital born PDF image scans (from before 1980s) and remove the scan noises/artifacts from them.  
+NOTE: The project started as a diffusion model but was later refactored to use a RESIDUAL UNET for simplicity. See initial attempt in the repo
 
 
 **Image Preprocessing and Dataset Preparation**  
